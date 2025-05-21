@@ -53,23 +53,20 @@ Create a .env file in the backend directory and set up the necessary environment
      ```bash
    cd backend
    npm start
-Start the frontend application:
-
-
-
+* Start the frontend application:
 ```bash
    git clone https://github.com/binulalkt/school_managment_system.git
 ```
 3. **Install Dependencies**
 We welcome contributions from the community! To contribute to this project, please follow these steps:
 
-1,*Fork the Repository*: Click on the "Fork" button at the top right of the repository page.
-2,*Create a New Branch*:
+1, *Fork the Repository*: Click on the "Fork" button at the top right of the repository page.
+2, *Create a New Branch*:
    ```bash
      git checkout -b feature/YourFeatureName
 ```
-3,*Make Your Changes*: Implement your feature or fix the bug.
-4,*Commit Your Changes*:
+3, *Make Your Changes*: Implement your feature or fix the bug.
+4, *Commit Your Changes*:
    ```bash
      git commit -m "Add your message here"
 ```
