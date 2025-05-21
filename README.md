@@ -1,4 +1,4 @@
-# Add Me - CBSE Arts Fest Management System
+#  CBSE Arts Fest Management System
 
 ## Overview
 
