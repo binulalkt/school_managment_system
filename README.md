@@ -1,16 +1,16 @@
- Overview
+# Add Me - CBSE Arts Fest Management System
 
-The **School Management System** is a web-based application designed to streamline the administrative processes of educational institutions. This system allows for efficient management of student records, course offerings, faculty information, and other essential school operations.
+## Overview
+
+The **CBSE Arts Fest Management System** is a web-based application designed specifically for managing the Sahodhaya Arts Fest in CBSE schools. This system automates various processes involved in student coordination, results management, and selection workflows, making it easier for schools to organize and manage arts festivals efficiently.
 
 ### Key Features
 
-- **Student Management**: Enroll students, manage their profiles, and track academic performance.
-- **Course Management**: Create and manage courses, assign instructors, and track course enrollment.
-- **Faculty Management**: Manage faculty profiles, schedules, and performance evaluations.
-- **Attendance Tracking**: Record and monitor student attendance for each class.
-- **Grade Management**: Input and manage student grades, generate report cards, and track academic progress.
-- **User  Authentication**: Secure login for students, faculty, and administrators.
-- **Dashboard**: An intuitive dashboard for quick access to key metrics and information.
+- **Automated Student Coordination**: Streamlines the process of coordinating student participation in various events, ensuring smooth communication and organization.
+- **Results Management**: Facilitates the collection and management of results for different competitions, allowing for quick and accurate reporting.
+- **Selection Workflows**: Automates the selection process for participants, ensuring transparency and fairness in the selection criteria.
+- **Exportable Reports**: Generates comprehensive reports that can be exported in various formats for easy sharing and record-keeping.
+- **DNS-Hosted Solution**: Provides a reliable and scalable solution hosted on DNS, ensuring accessibility and performance.
 
 ## Technologies Used
 
@@ -33,66 +33,49 @@ To set up the project locally, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/binulalkt/school_managment_system.git
-Navigate to the Project Directory
+2. **Navigate to the Project Directory**
+     ```bash
+   cd school_managment_system
+3. **Install Dependencies**
+ * For the backend:
+   ```bash
+   cd backend
+   npm install
+ * For the frontend:
+     ```bash
+   cd backend
+   npm install
 
-bash
-Run
-Copy code
-cd school_managment_system
-Install Dependencies
-
-For the backend:
-bash
-Run
-Copy code
-cd backend
-npm install
-For the frontend:
-bash
-Run
-Copy code
-cd frontend
-npm install
-Configure Environment Variables
-
+3. **Configure Environment Variables**
 Create a .env file in the backend directory and set up the necessary environment variables (e.g., database connection string, API keys).
-Run the Application
-
-Start the backend server:
-bash
-Run
-Copy code
-cd backend
-npm start
+*Run the Application*
+ * Start the backend server:
+     ```bash
+   cd backend
+   npm start
 Start the frontend application:
-bash
-Run
-Copy code
-cd frontend
-npm start
-Contributing
+
+
+
+```bash
+   git clone https://github.com/binulalkt/school_managment_system.git
+```
+3. **Install Dependencies**
 We welcome contributions from the community! To contribute to this project, please follow these steps:
 
-Fork the Repository: Click on the "Fork" button at the top right of the repository page.
-Create a New Branch:
-bash
-Run
-Copy code
-git checkout -b feature/YourFeatureName
-Make Your Changes: Implement your feature or fix the bug.
-Commit Your Changes:
-bash
-Run
-Copy code
-git commit -m "Add your message here"
-Push to Your Fork:
-bash
-Run
-Copy code
-git push origin feature/YourFeatureName
-Create a Pull Request: Go to the original repository and click on "New Pull Request".
-Contact
-For any inquiries or issues, please contact the repository owner at ktbinulal@gmail.com.
+1,*Fork the Repository*: Click on the "Fork" button at the top right of the repository page.
+2,*Create a New Branch*:
+   ```bash
+     git checkout -b feature/YourFeatureName
+```
+3,*Make Your Changes*: Implement your feature or fix the bug.
+4,*Commit Your Changes*:
+   ```bash
+     git commit -m "Add your message here"
+```
 
-Acknowledgments
-Thanks to all contributors and the open-source community for their support.
+5,*Push to Your Fork*:
+   ```bash
+     git push origin feature/YourFeatureName
+```
+6,*Create a Pull Request*: Go to the original repository and click on "New Pull Request".
